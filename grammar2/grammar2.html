@@ -1,0 +1,54 @@
+<html>
+<head>
+<title> Parse Trees for ABese</title>
+</head>
+<body>
+Grammar with 5 productions (start state = S)<br>S -> A B<br>
+A -> 'a' A<br>
+A -> 'a'<br>
+B -> B<br>
+B -> 'b'<br>
+<br><br><br><u> Depth = 1 </u><br>
+<u> Depth = 2 </u><br>
+<u> Depth = 3 </u><br>
+a b<br>
+(S (A a) (B b))<br>
+<img class="center" src="Figures/depth_3_tree_1.png" style="width:512px;height:512px;"><br>
+<u> Depth = 4 </u><br>
+a a b<br>
+(S (A a (A a)) (B b))<br>
+<img class="center" src="Figures/depth_4_tree_1.png" style="width:512px;height:512px;"><br>
+a a b<br>
+(S (A a (A a)) (B (B b)))<br>
+<img class="center" src="Figures/depth_4_tree_2.png" style="width:512px;height:512px;"><br>
+a a b<br>
+(S (A a (A a)) (B b))<br>
+<img class="center" src="Figures/depth_4_tree_3.png" style="width:512px;height:512px;"><br>
+a a b<br>
+(S (A a (A a)) (B (B b)))<br>
+<img class="center" src="Figures/depth_4_tree_4.png" style="width:512px;height:512px;"><br>
+a b<br>
+(S (A a) (B (B b)))<br>
+<img class="center" src="Figures/depth_4_tree_5.png" style="width:512px;height:512px;"><br>
+a b<br>
+(S (A a) (B (B b)))<br>
+<img class="center" src="Figures/depth_4_tree_6.png" style="width:512px;height:512px;"><br>
+<u> Depth = 5 </u><br>
+a a a b<br>
+(S (A a (A a (A a))) (B b))<br>
+<img class="center" src="Figures/depth_5_tree_1.png" style="width:512px;height:512px;"><br>
+a a a b<br>
+(S (A a (A a (A a))) (B (B b)))<br>
+<img class="center" src="Figures/depth_5_tree_2.png" style="width:512px;height:512px;"><br>
+a a a b<br>
+(S (A a (A a (A a))) (B b))<br>
+<img class="center" src="Figures/depth_5_tree_3.png" style="width:512px;height:512px;"><br>
+a a a b<br>
+(S (A a (A a (A a))) (B (B b)))<br>
+<img class="center" src="Figures/depth_5_tree_4.png" style="width:512px;height:512px;"><br>
+a a a b<br>
+(S (A a (A a (A a))) (B b))<br>
+<img class="center" src="Figures/depth_5_tree_5.png" style="width:512px;height:512px;"><br>
+a a a b<br>
+(S (A a (A a (A a))) (B (B b)))<br>
+<img class="center" src="Figures/depth_5_tree_6.png" style="width:512px;height:512px;"><br>

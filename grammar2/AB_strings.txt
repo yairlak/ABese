@@ -1,0 +1,79 @@
+Grammar with 5 productions (start state = S)
+    S -> A B
+    A -> 'a' A
+    A -> 'a'
+    B -> B
+    B -> 'b'
+
+Depth = 1
+
+
+
+Depth = 2
+
+
+
+Depth = 3
+depth_3_tree_1
+a b
+(S (A a) (B b))
+
+
+
+
+Depth = 4
+depth_4_tree_1
+a a b
+(S (A a (A a)) (B b))
+
+depth_4_tree_2
+a a b
+(S (A a (A a)) (B (B b)))
+
+depth_4_tree_3
+a a b
+(S (A a (A a)) (B b))
+
+depth_4_tree_4
+a a b
+(S (A a (A a)) (B (B b)))
+
+depth_4_tree_5
+a b
+(S (A a) (B (B b)))
+
+depth_4_tree_6
+a b
+(S (A a) (B (B b)))
+
+
+
+
+Depth = 5
+depth_5_tree_1
+a a a b
+(S (A a (A a (A a))) (B b))
+
+depth_5_tree_2
+a a a b
+(S (A a (A a (A a))) (B (B b)))
+
+depth_5_tree_3
+a a a b
+(S (A a (A a (A a))) (B b))
+
+depth_5_tree_4
+a a a b
+(S (A a (A a (A a))) (B (B b)))
+
+depth_5_tree_5
+a a a b
+(S (A a (A a (A a))) (B b))
+
+depth_5_tree_6
+a a a b
+(S (A a (A a (A a))) (B (B b)))
+
+
+
+

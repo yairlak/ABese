@@ -1,0 +1,38 @@
+Grammar with 4 productions (start state = S)
+    S -> A B
+    S -> A B S
+    A -> 'a'
+    B -> 'b'
+
+Depth = 1
+
+
+
+Depth = 2
+
+
+
+Depth = 3
+depth_3_tree_1
+a b
+(S (A a) (B b))
+
+
+
+
+Depth = 4
+depth_4_tree_1
+a b a b
+(S (A a) (B b) (S (A a) (B b)))
+
+
+
+
+Depth = 5
+depth_5_tree_1
+a b a b a b
+(S (A a) (B b) (S (A a) (B b) (S (A a) (B b))))
+
+
+
+

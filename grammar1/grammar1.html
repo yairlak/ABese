@@ -1,0 +1,23 @@
+<html>
+<head>
+<title> Parse Trees for ABese</title>
+</head>
+<body>
+Grammar with 4 productions (start state = S)<br>S -> A B<br>
+S -> A B S<br>
+A -> 'a'<br>
+B -> 'b'<br>
+<br><br><br><u> Depth = 1 </u><br>
+<u> Depth = 2 </u><br>
+<u> Depth = 3 </u><br>
+a b<br>
+(S (A a) (B b))<br>
+<img class="center" src="Figures/depth_3_tree_1.png" style="width:512px;height:512px;"><br>
+<u> Depth = 4 </u><br>
+a b a b<br>
+(S (A a) (B b) (S (A a) (B b)))<br>
+<img class="center" src="Figures/depth_4_tree_1.png" style="width:512px;height:512px;"><br>
+<u> Depth = 5 </u><br>
+a b a b a b<br>
+(S (A a) (B b) (S (A a) (B b) (S (A a) (B b))))<br>
+<img class="center" src="Figures/depth_5_tree_1.png" style="width:512px;height:512px;"><br>
